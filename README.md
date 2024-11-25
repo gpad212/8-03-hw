@@ -11,6 +11,6 @@ https://github.com/gpad212/jubilant-winner/blob/main/.gitignore
 
 Задание 3
 
-![Ответ к заданию 3](https://github.com/gpad212/8-03-hw/tree/main/img/8-03-hw.pmg)
+![Ответ к заданию 3](https://github.com/gpad212/8-03-hw/blob/main/img/8-03-hw.png)
 
 
