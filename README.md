@@ -1,14 +1,16 @@
-Домашнее задание по теме "Git" Дуркина Егора
+Домашнее задание по теме "Что такое DevOps. CI/CD" Дуркина Егора
 
 Задание 1
-
-https://github.com/gpad212/jubilant-winner/commit/5c2bd9a185df331e5becaf1bdabac2122c728c00
-
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/1.png)
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2.png)
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/3.png)
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/4.png)
 
 Задание 2
-   
-https://github.com/gpad212/jubilant-winner/commit/6489a8b11e48e5915b0e36f435e8c8e8f8fb7ba1
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2-1.png)
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2-2.png)
 
 Задание 3
 
-https://github.com/gpad212/jubilant-winner/network
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/3-1.png)
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/3-2.png)
