@@ -1,33 +1,15 @@
-Домашнее задание по теме "Система мониторинга Zabbix. Часть 2" Дуркина Егора
+Домашнее задание по теме "Disaster recovery и Keepalived 2" Дуркина Егора
 
 Задание 1
-Требования к результату
 
-    Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
     ![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/1-1.png)
     ![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/1-2.png)
+    [Схема на проверку](https://github.com/gpad212/8-03-hw/blob/main/hsrp_advanced_1.pkt)
 
 Задание 2
+   
+    ![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2.png)
+    [Конфиг на проверку](https://github.com/gpad212/8-03-hw/blob/main/keepalived.conf)
+    [Скрипт на проверку](https://github.com/gpad212/8-03-hw/blob/main/check_nginx.sh)
 
-Требования к результату
-
-    Результат данного задания сдавайте вместе с заданием 3
-
-Задание 3
-
-Требования к результату
-
-    Прикрепите в файл README.md скриншот страницы хостов, где будут видны привязки шаблонов с названиями «Задание 2-3». Хосты должны иметь зелёный статус подключения
-    
-    ![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/3-1.png)
-    ![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/3-2.png)
-    ![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/3-2.png)
-
-Задание 4
-
-Требования к результату
-
-    Прикрепите в файл README.md скриншот дашборда с названием «Задание 4»
-    
-    ![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/4-1.png)
 
