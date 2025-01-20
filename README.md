@@ -2,14 +2,27 @@
 
 Задание 1
 
-    ![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/1-1.png)
-    ![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/1-2.png)
-    [Схема на проверку](https://github.com/gpad212/8-03-hw/blob/main/hsrp_advanced_1.pkt)
+    Запустите два simple python сервера на своей виртуальной машине на разных портах
+    Установите и настройте HAProxy, воспользуйтесь материалами к лекции по ссылке
+    Настройте балансировку Round-robin на 4 уровне.
+    На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
+
+
+
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/1.png)
+
+[haproxy.cfg](https://github.com/gpad212/8-03-hw/blob/main/haproxy.cfg)
 
 Задание 2
-   
-    ![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2.png)
-    [Конфиг на проверку](https://github.com/gpad212/8-03-hw/blob/main/keepalived.conf)
-    [Скрипт на проверку](https://github.com/gpad212/8-03-hw/blob/main/check_nginx.sh)
+
+    Запустите три simple python сервера на своей виртуальной машине на разных портах
+    Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
+    HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
+    На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
+
+
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2.png)
+
+[haproxy.cfg](https://github.com/gpad212/8-03-hw/blob/main/haproxy_2.cfg)
 
 
