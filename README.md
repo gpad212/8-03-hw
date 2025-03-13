@@ -44,4 +44,3 @@ customer         | customer_id
 
 
 ![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2.png)
-
