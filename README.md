@@ -1,21 +1,43 @@
-Домашнее задание по теме "Индексы" Дуркина Егора
+Домашнее задание по теме "Репликация и масштабирование. Часть 1" Дуркина Егора
 
 Задание 1
 
-Напишите запрос к учебной базе данных, который вернёт процентное отношение общего размера всех индексов к общему размеру всех таблиц.
+На лекции рассматривались режимы репликации master-slave, master-master, опишите их различия.
 
-![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/1.png)
+master-slave 
+Запись невозможна, только репилкация с мастера
+Возможно чтение даже когда выключен мастер
+Может снизить нагрузку на мастер
+Временной лаг при обновлении данных
+
+master-master 
+Возможна запись и чтение 
+Все обновления происходят сразу и потом передаются на подчиненные базы
+
 
 Задание 2
 
-Выполните explain analyze следующего запроса:
+Выполните конфигурацию master-slave репликации, примером можно пользоваться из лекции.
 
-![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2.1.png)
+файл конфигурации docker compose
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2-1.png)
 
-перечислите узкие места;
--> Window aggregate with buffering: sum(p.amount) OVER (PARTITION BY c.customer_id,f.title )   (actual time=2564..5621 rows=642000 loops=1)
--> Sort: c.customer_id, f.title  (actual time=2564..2639 rows=642000 loops=1)
+настройка конфигурации master
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2-2.png)
 
-оптимизируйте запрос: внесите корректировки по использованию операторов, при необходимости добавьте индексы.
+настройка конфигурации slave
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2-3.png)
 
-![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2.2.png)
+настройка мастера выполнена 
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2-4.png)
+
+так как были ошибки в работе, не передавались обновления в базу, так как не была создана база и небыло в ней таблицы, пока изкал проблему в треминале команда настройки убежала вверх и ее не увидеть целиком. По это сделал скрин в сайта с инструкцией. 
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2-5.png)
+
+скрин таблицы на master
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2-6.png)
+
+таблица на slave
+![otvet](https://github.com/gpad212/8-03-hw/blob/main/img/2-7.png)
+
+
